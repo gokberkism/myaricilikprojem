@@ -1,4 +1,4 @@
-name: ci
+name:Docker image ci
 on:
   push:
     branches:
