@@ -2,4 +2,4 @@
 FROM ubuntu:20.04
 RUN apt-get -y update
 RUN apt-get -y install nginx
-RUN docker run -it -d -p 8000:85 --name web nginx
+RUN docker run -it -p 8000:85 --name web -d nginx
